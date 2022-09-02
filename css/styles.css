@@ -8,6 +8,7 @@
 	--light-background: #f5f4fa;
 	--logo-black: #000;
 	--contact-footer: rgb(255 255 255 / 0.6);
+	--hero-btn-active: #188ce8;
 }
 /* Глобальні стилі */
 body {
@@ -105,6 +106,11 @@ body {
 	font-weight: 700;
 	line-height: 1.88;
 	letter-spacing: 0.06em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--hero-btn-active);
 }
 
 .primary-btn {
